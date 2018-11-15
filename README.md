@@ -5,4 +5,6 @@ This is an image segmentation program (similar to the watershed algorithm) that 
 The image is broken up into tiny sections based on a color similarity threshold, and those sections are then recombined (by analyzing edge similarity)
 until the segments are sufficiently large to be meaningful. The segmentation logic is mainly contained in the SectionMaster.cs and Section.cs files (within FlashfloodSegmentation folder).
 
+lake-segmented.png and flowers-segmented.png are examples of outputs of the segmentation program (derived from lake.jpg and flowers.jpg respectively).
+
 Written using C# .NET framework and WPF.
